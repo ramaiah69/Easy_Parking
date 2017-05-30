@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:paddingTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="26dp"
+        android:textColor="#cac"
+        android:fontFamily="century"
+        android:text="Login" />
+    <EditText
+        android:paddingTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:minWidth="200dp"
+        android:gravity="center"
+        android:hint="Enter your id"
+        android:id="@+id/userId"/>
+    <EditText
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter you password"
+        android:minWidth="200dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:inputType="textPassword"
+        android:id="@+id/userPassword"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="200dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Login"
+        android:id="@+id/login"
+        android:background="#ccd"
+        />
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:minWidth="200dp"
+        android:id="@+id/register"
+        android:background="#ccd"
+        android:layout_gravity="center_horizontal"
+        />
+</LinearLayout>

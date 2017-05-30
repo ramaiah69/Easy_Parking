@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Parking places">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:icon="@drawable/ic_menu_send"
+                    android:id="@+id/register_places"
+                    android:title="Nearest places" />
+                <item
+                    android:id="@+id/map_places"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Route to nearest places" />
+                <item
+                    android:id="@+id/nav_gallery"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Places in another city" />
+
+                <item
+                    android:id="@+id/nav_manage"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Route to places in a city" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Log out" />
+
+        </menu>
+    </item>
+
+</menu>
